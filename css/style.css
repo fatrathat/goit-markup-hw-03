@@ -126,7 +126,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   display: flex;
-  flex-direction: row-reverse;
   margin-left: auto;
 }
 
@@ -234,13 +233,18 @@ body {
   margin-left: 30px;
 }
 
+.team-title-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  padding-top: 30px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .team-item {
@@ -255,8 +259,6 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--second-text-color);
-  padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 /*-------------Footer content-------------*/
@@ -265,7 +267,8 @@ body {
 }
 
 .footer-container {
-  padding: 60px 0 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address-link {

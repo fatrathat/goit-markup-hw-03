@@ -208,6 +208,10 @@ body {
 }
 
 /*-------------Activity content-------------*/
+.activity {
+  padding-top: 0;
+}
+
 .activity-container {
   padding-top: 0;
 }
